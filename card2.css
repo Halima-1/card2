@@ -53,3 +53,32 @@ img{
     margin-top: 5px;
     padding-left: 20px;
 }
+
+@media (max-width :450px){
+    form{
+        width: 85%;
+        padding: 20px;
+        margin: auto;
+    }
+    .image{
+        width: 60%;
+        height: 170px;
+        margin: auto;
+    }
+    
+    .text{
+        width: 90%;
+        font-size: 12px;
+    }
+    input{
+        width: 100%;
+        margin:10px auto ;
+        padding: 8px;
+    }
+    .conta{
+        display: block;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+    
+}
